@@ -1,0 +1,22 @@
+[0.170s] Invoking command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/py_sub:/opt/ros/humble /usr/bin/cmake --build /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub -- -j8 -l8
+[0.238s] [100%] Built target talker
+[0.717s] Invoked command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/py_sub:/opt/ros/humble /usr/bin/cmake --build /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub -- -j8 -l8
+[0.807s] Invoking command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/py_sub:/opt/ros/humble /usr/bin/cmake --install /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub
+[0.826s] -- Install configuration: ""
+[0.827s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/lib/cpp_pub/talker
+[0.827s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[0.828s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[0.828s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[0.828s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[0.829s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.sh
+[0.829s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[0.830s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.bash
+[0.830s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.sh
+[0.830s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[0.830s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[0.831s] -- Installing: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.dsv
+[0.831s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[0.831s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[0.832s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[0.832s] -- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.xml
+[0.835s] Invoked command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/py_sub:/opt/ros/humble /usr/bin/cmake --install /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub

@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (-) JobUnselected: {'identifier': 'py_sub'}
+[0.000271] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.000353] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.073478] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.074753] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'build'}
+[0.074794] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub', '--', '-j8', '-l8'], 'cwd': '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stefan-linux'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/stefan-linux'), ('OLDPWD', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1976'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stefan-linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stefan-linux'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/stefan-linux/.local/bin:/home/stefan-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3/bin:/usr/lib/jvm/jdk-21.0.2/jre/bin'), ('SESSION_MANAGER', 'local/stefan-XPS-15-9560-linux:@/tmp/.ICE-unix/1953,unix/stefan-XPS-15-9560-linux:/tmp/.ICE-unix/1953'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90ccfc26_3429_48e4_8144_6885c35e3b46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PYSPARK_PYTHON', 'python3'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-21.0.2'), ('PWD', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3/python:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('SPARK_HOME', '/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099202] (-) TimerEvent: {}
+[0.122096] (cpp_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.154395] (cpp_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.199394] (-) TimerEvent: {}
+[0.299855] (-) TimerEvent: {}
+[0.400289] (-) TimerEvent: {}
+[0.500643] (-) TimerEvent: {}
+[0.600920] (-) TimerEvent: {}
+[0.701198] (-) TimerEvent: {}
+[0.801460] (-) TimerEvent: {}
+[0.901760] (-) TimerEvent: {}
+[1.002083] (-) TimerEvent: {}
+[1.102390] (-) TimerEvent: {}
+[1.202753] (-) TimerEvent: {}
+[1.303036] (-) TimerEvent: {}
+[1.403344] (-) TimerEvent: {}
+[1.503671] (-) TimerEvent: {}
+[1.604029] (-) TimerEvent: {}
+[1.704405] (-) TimerEvent: {}
+[1.804691] (-) TimerEvent: {}
+[1.905013] (-) TimerEvent: {}
+[2.005422] (-) TimerEvent: {}
+[2.105904] (-) TimerEvent: {}
+[2.206272] (-) TimerEvent: {}
+[2.306573] (-) TimerEvent: {}
+[2.406927] (-) TimerEvent: {}
+[2.507211] (-) TimerEvent: {}
+[2.607500] (-) TimerEvent: {}
+[2.707790] (-) TimerEvent: {}
+[2.808060] (-) TimerEvent: {}
+[2.908353] (-) TimerEvent: {}
+[3.008619] (-) TimerEvent: {}
+[3.108906] (-) TimerEvent: {}
+[3.209195] (-) TimerEvent: {}
+[3.309483] (-) TimerEvent: {}
+[3.409790] (-) TimerEvent: {}
+[3.510079] (-) TimerEvent: {}
+[3.610375] (-) TimerEvent: {}
+[3.710741] (-) TimerEvent: {}
+[3.811033] (-) TimerEvent: {}
+[3.911294] (-) TimerEvent: {}
+[4.011572] (-) TimerEvent: {}
+[4.111853] (-) TimerEvent: {}
+[4.212130] (-) TimerEvent: {}
+[4.312413] (-) TimerEvent: {}
+[4.412703] (-) TimerEvent: {}
+[4.512990] (-) TimerEvent: {}
+[4.613374] (-) TimerEvent: {}
+[4.713884] (-) TimerEvent: {}
+[4.778496] (cpp_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.814019] (-) TimerEvent: {}
+[4.914427] (-) TimerEvent: {}
+[5.015002] (-) TimerEvent: {}
+[5.115634] (-) TimerEvent: {}
+[5.216135] (-) TimerEvent: {}
+[5.249527] (cpp_pub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[5.262925] (cpp_pub) CommandEnded: {'returncode': 0}
+[5.305843] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'install'}
+[5.316322] (-) TimerEvent: {}
+[5.332652] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub'], 'cwd': '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stefan-linux'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/stefan-linux'), ('OLDPWD', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1976'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stefan-linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stefan-linux'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/stefan-linux/.local/bin:/home/stefan-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3/bin:/usr/lib/jvm/jdk-21.0.2/jre/bin'), ('SESSION_MANAGER', 'local/stefan-XPS-15-9560-linux:@/tmp/.ICE-unix/1953,unix/stefan-XPS-15-9560-linux:/tmp/.ICE-unix/1953'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90ccfc26_3429_48e4_8144_6885c35e3b46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PYSPARK_PYTHON', 'python3'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-21.0.2'), ('PWD', '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3/python:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('SPARK_HOME', '/home/stefan-linux/Downloads/spark-3.5.0-bin-hadoop3'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.355282] (cpp_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.356111] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/lib/cpp_pub/talker\n'}
+[5.361549] (cpp_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/lib/cpp_pub/talker" to ""\n'}
+[5.362241] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub\n'}
+[5.363172] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub\n'}
+[5.363431] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh\n'}
+[5.363702] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv\n'}
+[5.363937] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.sh\n'}
+[5.364167] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv\n'}
+[5.364395] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.bash\n'}
+[5.364624] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.sh\n'}
+[5.364831] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh\n'}
+[5.365037] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv\n'}
+[5.365243] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.dsv\n'}
+[5.365765] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub\n'}
+[5.366079] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake\n'}
+[5.366302] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake\n'}
+[5.366545] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.xml\n'}
+[5.369919] (cpp_pub) CommandEnded: {'returncode': 0}
+[5.416803] (-) TimerEvent: {}
+[5.517342] (-) TimerEvent: {}
+[5.617867] (-) TimerEvent: {}
+[5.718948] (-) TimerEvent: {}
+[5.819759] (-) TimerEvent: {}
+[5.864979] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 0}
+[5.866686] (-) EventReactorShutdown: {}

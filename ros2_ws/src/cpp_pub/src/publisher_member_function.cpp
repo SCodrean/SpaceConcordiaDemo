@@ -17,7 +17,7 @@ class MinimalPublisher : public rclcpp::Node
     MinimalPublisher()
     : Node("minimal_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::String>("vector_topic", 10);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -28,7 +28,7 @@ class MinimalPublisher : public rclcpp::Node
 
       std::random_device rd; //random device
       std::mt19937 eng(rd()); //random engine
-      std::uniform_real_distribution<> distr(0.0, 100.0);
+      std::uniform_real_distribution<> distr(-100.0, 100.0);
       float random_value = distr(eng);
 
 
