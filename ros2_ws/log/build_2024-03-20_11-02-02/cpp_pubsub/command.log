@@ -1,0 +1,2 @@
+Invoking command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/build/cpp_pubsub -- -j8 -l8
