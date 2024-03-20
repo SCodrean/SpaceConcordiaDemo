@@ -1,0 +1,16 @@
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/lib/cpp_pub/talker
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.sh
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.bash
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.sh
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.dsv
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/install/cpp_pub/share/cpp_pub/package.xml

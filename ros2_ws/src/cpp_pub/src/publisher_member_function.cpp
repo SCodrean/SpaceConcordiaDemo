@@ -6,10 +6,10 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
+#include <random>
+
 using namespace std::chrono_literals;
 
-/* This example creates a subclass of Node and uses std::bind() to register a
-* member function as a callback from the timer. */
 
 class MinimalPublisher : public rclcpp::Node
 {
@@ -25,14 +25,23 @@ class MinimalPublisher : public rclcpp::Node
   private:
     void timer_callback()
     {
+
+      std::random_device rd; //random device
+      std::mt19937 eng(rd()); //random engine
+      std::uniform_real_distribution<> distr(0.0, 100.0);
+      float random_value = distr(eng);
+
+
       auto message = std_msgs::msg::String();
-      message.data = "Hello, world! " + std::to_string(count_++);
+      message.data = "Coordinate: " + std::to_string(random_value);
       RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
       publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
     size_t count_;
+
+    
 };
 
 int main(int argc, char * argv[])

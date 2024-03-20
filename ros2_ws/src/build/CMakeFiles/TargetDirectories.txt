@@ -1,5 +1,5 @@
 /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/uninstall.dir
-/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/cpp_pubsub_uninstall.dir
+/home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/cpp_pub_uninstall.dir
 /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/talker.dir
 /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/test.dir
 /home/stefan-linux/repos/SpaceConcordiaDemo/ros2_ws/src/build/CMakeFiles/edit_cache.dir

@@ -185,17 +185,17 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
-# Target rules for targets named cpp_pubsub_uninstall
+# Target rules for targets named cpp_pub_uninstall
 
 # Build rule for target.
-cpp_pubsub_uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_pubsub_uninstall
-.PHONY : cpp_pubsub_uninstall
+cpp_pub_uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_pub_uninstall
+.PHONY : cpp_pub_uninstall
 
 # fast build rule for target.
-cpp_pubsub_uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pubsub_uninstall.dir/build.make CMakeFiles/cpp_pubsub_uninstall.dir/build
-.PHONY : cpp_pubsub_uninstall/fast
+cpp_pub_uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pub_uninstall.dir/build.make CMakeFiles/cpp_pub_uninstall.dir/build
+.PHONY : cpp_pub_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named talker
@@ -247,7 +247,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... cpp_pubsub_uninstall"
+	@echo "... cpp_pub_uninstall"
 	@echo "... uninstall"
 	@echo "... talker"
 	@echo "... src/publisher_member_function.o"
